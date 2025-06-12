@@ -1,0 +1,110 @@
+2025-06-04 11:50:58 [main] INFO  c.l.logcheck.LogcheckApplication - Starting LogcheckApplication using Java 17.0.15 with PID 87822 (/home/ubuntu/Downloads/logcheck/target/classes started by ubuntu in /home/ubuntu/Downloads/logcheck)
+2025-06-04 11:50:58 [main] INFO  c.l.logcheck.LogcheckApplication - No active profile set, falling back to 1 default profile: "default"
+2025-06-04 11:51:00 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-06-04 11:51:00 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-06-04 11:51:00 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-06-04 11:51:00 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-06-04 11:51:00 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-06-04 11:51:00 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2124 ms
+2025-06-04 11:51:01 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-06-04 11:51:01 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-06-04 11:51:01 [main] INFO  c.l.logcheck.LogcheckApplication - Started LogcheckApplication in 4.44 seconds (process running for 5.344)
+2025-06-04 11:52:06 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-04 11:52:06 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-06-04 11:52:06 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-06-04 11:52:06 [http-nio-8080-exec-1] INFO  c.l.l.Controller.TestController - This is an INFO log
+2025-06-04 11:52:06 [http-nio-8080-exec-1] WARN  c.l.l.Controller.TestController - This is a WARN log
+2025-06-04 11:52:06 [http-nio-8080-exec-1] ERROR c.l.l.Controller.TestController - This is an ERROR log
+2025-06-04 11:54:04 [http-nio-8080-exec-3] INFO  c.l.l.Controller.TestController - This is an INFO log
+2025-06-04 11:54:04 [http-nio-8080-exec-3] WARN  c.l.l.Controller.TestController - This is a WARN log
+2025-06-04 11:54:04 [http-nio-8080-exec-3] ERROR c.l.l.Controller.TestController - This is an ERROR log
+2025-06-04 11:54:29 [http-nio-8080-exec-5] INFO  c.l.l.Controller.TestController - This is an INFO log
+2025-06-04 11:54:29 [http-nio-8080-exec-5] WARN  c.l.l.Controller.TestController - This is a WARN log
+2025-06-04 11:54:29 [http-nio-8080-exec-5] ERROR c.l.l.Controller.TestController - This is an ERROR log
+2025-06-04 11:54:29 [http-nio-8080-exec-4] INFO  c.l.l.Controller.TestController - This is an INFO log
+2025-06-04 11:54:29 [http-nio-8080-exec-4] WARN  c.l.l.Controller.TestController - This is a WARN log
+2025-06-04 11:54:29 [http-nio-8080-exec-4] ERROR c.l.l.Controller.TestController - This is an ERROR log
+2025-06-04 11:54:30 [http-nio-8080-exec-6] INFO  c.l.l.Controller.TestController - This is an INFO log
+2025-06-04 11:54:30 [http-nio-8080-exec-6] WARN  c.l.l.Controller.TestController - This is a WARN log
+2025-06-04 11:54:30 [http-nio-8080-exec-6] ERROR c.l.l.Controller.TestController - This is an ERROR log
+2025-06-04 11:54:30 [http-nio-8080-exec-7] INFO  c.l.l.Controller.TestController - This is an INFO log
+2025-06-04 11:54:30 [http-nio-8080-exec-7] WARN  c.l.l.Controller.TestController - This is a WARN log
+2025-06-04 11:54:30 [http-nio-8080-exec-7] ERROR c.l.l.Controller.TestController - This is an ERROR log
+2025-06-04 11:54:30 [http-nio-8080-exec-9] INFO  c.l.l.Controller.TestController - This is an INFO log
+2025-06-04 11:54:30 [http-nio-8080-exec-9] WARN  c.l.l.Controller.TestController - This is a WARN log
+2025-06-04 11:54:30 [http-nio-8080-exec-9] ERROR c.l.l.Controller.TestController - This is an ERROR log
+2025-06-04 11:54:30 [http-nio-8080-exec-8] INFO  c.l.l.Controller.TestController - This is an INFO log
+2025-06-04 11:54:30 [http-nio-8080-exec-8] WARN  c.l.l.Controller.TestController - This is a WARN log
+2025-06-04 11:54:30 [http-nio-8080-exec-8] ERROR c.l.l.Controller.TestController - This is an ERROR log
+2025-06-04 11:54:30 [http-nio-8080-exec-10] INFO  c.l.l.Controller.TestController - This is an INFO log
+2025-06-04 11:54:30 [http-nio-8080-exec-10] WARN  c.l.l.Controller.TestController - This is a WARN log
+2025-06-04 11:54:30 [http-nio-8080-exec-10] ERROR c.l.l.Controller.TestController - This is an ERROR log
+2025-06-04 11:54:31 [http-nio-8080-exec-1] INFO  c.l.l.Controller.TestController - This is an INFO log
+2025-06-04 11:54:31 [http-nio-8080-exec-1] WARN  c.l.l.Controller.TestController - This is a WARN log
+2025-06-04 11:54:31 [http-nio-8080-exec-1] ERROR c.l.l.Controller.TestController - This is an ERROR log
+2025-06-04 11:54:31 [http-nio-8080-exec-2] INFO  c.l.l.Controller.TestController - This is an INFO log
+2025-06-04 11:54:31 [http-nio-8080-exec-2] WARN  c.l.l.Controller.TestController - This is a WARN log
+2025-06-04 11:54:31 [http-nio-8080-exec-2] ERROR c.l.l.Controller.TestController - This is an ERROR log
+2025-06-04 11:56:31 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-04 11:56:31 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-06-04 11:56:39 [main] INFO  c.l.logcheck.LogcheckApplication - Starting LogcheckApplication using Java 17.0.15 with PID 88207 (/home/ubuntu/Downloads/logcheck/target/classes started by ubuntu in /home/ubuntu/Downloads/logcheck)
+2025-06-04 11:56:39 [main] INFO  c.l.logcheck.LogcheckApplication - No active profile set, falling back to 1 default profile: "default"
+2025-06-04 11:56:41 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-06-04 11:56:41 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-06-04 11:56:41 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-06-04 11:56:41 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-06-04 11:56:41 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-06-04 11:56:41 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2057 ms
+2025-06-04 11:56:42 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-06-04 11:56:42 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-06-04 11:56:42 [main] INFO  c.l.logcheck.LogcheckApplication - Started LogcheckApplication in 4.78 seconds (process running for 5.579)
+2025-06-04 11:56:57 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-04 11:56:57 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-06-04 11:56:57 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-06-04 11:56:57 [http-nio-8080-exec-1] INFO  c.l.l.Controller.TestController - This is an INFO log
+2025-06-04 11:56:57 [http-nio-8080-exec-1] WARN  c.l.l.Controller.TestController - This is a WARN log
+2025-06-04 11:56:57 [http-nio-8080-exec-1] ERROR c.l.l.Controller.TestController - This is an ERROR log
+2025-06-04 11:57:03 [http-nio-8080-exec-2] INFO  c.l.l.Controller.EmployeeController - Fetching all employees
+2025-06-04 11:57:39 [http-nio-8080-exec-5] INFO  c.l.l.Controller.EmployeeController - Fetching employee with ID: 1
+2025-06-04 11:57:43 [http-nio-8080-exec-7] INFO  c.l.l.Controller.EmployeeController - Fetching employee with ID: 2
+2025-06-04 11:57:46 [http-nio-8080-exec-9] INFO  c.l.l.Controller.EmployeeController - Fetching employee with ID: 12
+2025-06-04 11:57:46 [http-nio-8080-exec-9] WARN  c.l.l.Controller.EmployeeController - Employee with ID 12 not found
+2025-06-04 11:59:30 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-04 11:59:30 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-06-04 11:59:34 [main] INFO  c.l.logcheck.LogcheckApplication - Starting LogcheckApplication using Java 17.0.15 with PID 88618 (/home/ubuntu/Downloads/logcheck/target/classes started by ubuntu in /home/ubuntu/Downloads/logcheck)
+2025-06-04 11:59:34 [main] INFO  c.l.logcheck.LogcheckApplication - No active profile set, falling back to 1 default profile: "default"
+2025-06-04 11:59:35 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-06-04 11:59:35 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-06-04 11:59:35 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-06-04 11:59:35 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-06-04 11:59:36 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-06-04 11:59:36 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1739 ms
+2025-06-04 11:59:36 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-06-04 11:59:36 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-06-04 11:59:36 [main] INFO  c.l.logcheck.LogcheckApplication - Started LogcheckApplication in 3.957 seconds (process running for 4.644)
+2025-06-04 12:00:02 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-04 12:00:02 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-06-04 12:00:02 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-06-04 12:00:02 [http-nio-8080-exec-1] INFO  c.l.l.Controller.TestController - This is an INFO log
+2025-06-04 12:00:02 [http-nio-8080-exec-1] WARN  c.l.l.Controller.TestController - This is a WARN log
+2025-06-04 12:00:02 [http-nio-8080-exec-1] ERROR c.l.l.Controller.TestController - This is an ERROR log
+2025-06-04 12:00:03 [http-nio-8080-exec-2] INFO  c.l.l.Controller.TestController - This is an INFO log
+2025-06-04 12:00:03 [http-nio-8080-exec-2] WARN  c.l.l.Controller.TestController - This is a WARN log
+2025-06-04 12:00:03 [http-nio-8080-exec-2] ERROR c.l.l.Controller.TestController - This is an ERROR log
+2025-06-04 12:00:03 [http-nio-8080-exec-3] INFO  c.l.l.Controller.TestController - This is an INFO log
+2025-06-04 12:00:03 [http-nio-8080-exec-3] WARN  c.l.l.Controller.TestController - This is a WARN log
+2025-06-04 12:00:03 [http-nio-8080-exec-3] ERROR c.l.l.Controller.TestController - This is an ERROR log
+2025-06-04 12:00:03 [http-nio-8080-exec-4] INFO  c.l.l.Controller.TestController - This is an INFO log
+2025-06-04 12:00:03 [http-nio-8080-exec-4] WARN  c.l.l.Controller.TestController - This is a WARN log
+2025-06-04 12:00:03 [http-nio-8080-exec-4] ERROR c.l.l.Controller.TestController - This is an ERROR log
+2025-06-04 12:00:03 [http-nio-8080-exec-5] INFO  c.l.l.Controller.TestController - This is an INFO log
+2025-06-04 12:00:03 [http-nio-8080-exec-5] WARN  c.l.l.Controller.TestController - This is a WARN log
+2025-06-04 12:00:03 [http-nio-8080-exec-5] ERROR c.l.l.Controller.TestController - This is an ERROR log
+2025-06-04 12:00:04 [http-nio-8080-exec-6] INFO  c.l.l.Controller.TestController - This is an INFO log
+2025-06-04 12:00:04 [http-nio-8080-exec-6] WARN  c.l.l.Controller.TestController - This is a WARN log
+2025-06-04 12:00:04 [http-nio-8080-exec-6] ERROR c.l.l.Controller.TestController - This is an ERROR log
+2025-06-04 12:00:04 [http-nio-8080-exec-8] INFO  c.l.l.Controller.TestController - This is an INFO log
+2025-06-04 12:00:04 [http-nio-8080-exec-8] WARN  c.l.l.Controller.TestController - This is a WARN log
+2025-06-04 12:00:04 [http-nio-8080-exec-8] ERROR c.l.l.Controller.TestController - This is an ERROR log
+2025-06-04 12:13:17 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-04 12:13:17 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
