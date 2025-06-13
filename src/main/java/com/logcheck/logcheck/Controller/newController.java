@@ -15,12 +15,5 @@ public class newController {
         logger.error("This is an ERROR log");
         return "Logging done!";
     }
-
-    @GetMapping("/log3")
-    public String testLogging2() {
-        logger.info("This is an INFO log");
-        logger.warn("This is a WARN log");
-        logger.error("This is an ERROR log");
-        return "Logging done!";
-    }
+    
 }
