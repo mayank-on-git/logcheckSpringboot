@@ -8,8 +8,16 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class newController {
     private static final Logger logger = LoggerFactory.getLogger(newController.class);
-    @GetMapping("/log")
+    @GetMapping("/log2")
     public String testLogging() {
+        logger.info("This is an INFO log");
+        logger.warn("This is a WARN log");
+        logger.error("This is an ERROR log");
+        return "Logging done!";
+    }
+
+    @GetMapping("/log3")
+    public String testLogging2() {
         logger.info("This is an INFO log");
         logger.warn("This is a WARN log");
         logger.error("This is an ERROR log");
