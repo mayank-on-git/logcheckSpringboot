@@ -19,8 +19,6 @@ public class TestController {
 
  @GetMapping("/log1")
     public String testLogging1() {
-        logger.info("This is an INFO log");
-        logger.warn("This is a WARN log");
         logger.error("This is an ERROR log");
         return "Logging done!";
     }
